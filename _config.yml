@@ -1,0 +1,15 @@
+# Site settings
+title: Spotify Data Viz Site on GitHub Pages
+description: This is my GitHub Pages website where I will visualize a user's Spotify data.
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# GitHub Pages settings
+remote_theme: "mmistakes/minimal-mistakes"
